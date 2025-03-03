@@ -87,6 +87,35 @@ int main()
 	//}//练习1.16从cub读取一组数 输出和
 
 
+	//int curval = 0, val = 0;//curval表示当前输入的值 val表示后面输入的值
+	//if (cin >> curval)
+	//{
+	//	int cnt = 0;
+	//	while (cin >> val)
+	//	{
+	//		if (val == curval)
+	//		{
+	//			cnt++;//负责记录重复次数
+	//			//cout << val <<endl;//输入全部重复的数
+	//		}
+	//		else
+	//		{
+	//			cout << val << endl;;//输入不重复的数
+	//			curval = val;
+	//			cnt = 0;
+
+	//		}
+	//	}
+	//}
+	////练习1.18输入全部相等的数和不相等的数
+
+
+	
+
+
+
+
+
 	system("pause");
 	return 0;
 }
