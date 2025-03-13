@@ -131,6 +131,33 @@ int main()
 	//}
 	//3.20第一个和最后一个的和
 
+	/*vector<int> v(10,2);
+	for (auto a = v.begin(); a != v.end(); a++)
+		*a *= 2;*/
+		//3.23全部变成两倍
+
+		//int num = 0; vector<int>v;
+		//while (cin >> num)
+		//{
+		//	v.push_back(num);
+		//}
+		//for (auto a = v.begin(), a2 = v.end()-1; a != v.end(); a++)
+		//{
+		//	
+		//	if (a < a2)cout << *a + *a2-- << endl;
+		//}
+		//3.24 重写94最后一个练习
+
+		//vector<int>v(11, 0); 
+		//int score = 0;
+		//while (cin >> score)
+		//{
+		//	auto a = v.begin();
+		//	if(score<=100)
+		//	(*(a + score / 10))++;//必须加括号
+		//}
+		//for (auto a : v)cout << a << endl;
+		////3.25用迭代器完成划分分数程序
 
 	return 0;
 }
