@@ -159,5 +159,65 @@ int main()
 		//for (auto a : v)cout << a << endl;
 		////3.25用迭代器完成划分分数程序
 
+		/*unsigned int a[3] = { 0,1,2 };
+		unsigned int* p = a;
+		for (int i = 0; i < 3; i++)
+		{
+			*(p + i) = 3;
+		}
+		for (auto i : a)cout << i << endl;*/
+		//用指针将数组元素变为0
+
+		//const char* s = "aa", * s1 = "aaa"; cout << strcmp(s, s1) << endl;
+		//string ss1 = "aaa", ss2 = "aa"; cout << (ss1 > ss2) << endl;
+		////3.39c风格和String比较字符串
+
+		//int array11[] = { 0,1,2,3 };
+		//vector<int>v(begin(array11), end(array11));
+		////for (auto a : v)cout << a << endl;
+		////3.41用数组初始化vector
+		//int ary2[4];
+		//for (int i = 0; i < v.size(); i++)
+		//{
+		//	ary2[i] = v[i];
+		//}
+		//for (auto a : ary2)cout << a << endl;
+		////3.42用vector初始数组
+
+		//int ia[3][4] = { {0,1,2,3},{4,5,6,7},{8,9,10,11} };
+		/*for (auto& a : ia)
+		{
+			for (auto& b : a)cout << b << " " << endl;
+		}*///范围for循环
+		/*for (int i =0; i < 3; i++)
+		{
+			for (int j = 0; j < 4; j++)
+				cout << ia[i][j]<<" ";
+		}*/
+		//用下标
+
+		//for (int *i = begin(*ia); i < *end(ia); i+=4)
+		//{
+		//	for (int j = *i; j < *i + 4; j++)
+		//	{
+		//		cout << j << " ";
+		//		//break;
+		//	}		
+		//}
+		////用指针（最tm费劲了）
+		//typedef int int_array4[4];
+		//for (int_array4* i = begin(ia); i < end(ia); i++)
+		//{
+		//	for (int* j = begin(*i); j < end(*i); j++)
+		//		cout << *j << " " << endl;
+		//}
+		////使用typedef
+		//for (auto i = begin(ia); i < end(ia); i++)
+		//{
+		//	for (auto j = begin(*i); j < end(*i); j++)
+		//		cout << *j << " " << endl;
+		//}
+		////使用auto
+		//3.6节练习
 	return 0;
 }
